@@ -1,3 +1,4 @@
+/* botões */
 .btn-purple {
     background-color: #7426aa;
     color: white;
@@ -6,4 +7,10 @@
 .btn-purple:hover {
     background-color: black;
     color: white;
+}
+
+/* links */
+.link-disabled {
+    text-decoration: none;
+    color: inherit;
 }
