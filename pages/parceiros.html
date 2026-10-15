@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/parceiros.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -35,17 +35,20 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-                    </li>                    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/parceiros.html">Parceiros</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contactos.html">Contactos</a>
                     </li>
                 </ul>
                 <div>
-                    <a href="/#"
-                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center" id="Botão" data-bs-toggle="dropdown" style="width: 40px; height: 40px;">
-                        <i class="bi bi-person"></i>                    
+                    <a href="contactos.html"
+                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center"
+                        id="botao" style="width: 40px; height: 40px;">
+                        <i class="bi bi-person"></i>
                     </a>
-                    
                 </div>
             </div>
         </div>
@@ -125,8 +128,6 @@
 
     </main>
 
-
-
     <!-- Rodapé -->
     <footer class="bg-dark text-white py-4 mt-auto">
         <div class="container">
@@ -138,10 +139,10 @@
                 <div class="col-md-4">
                     <h5 class="fw-bold">Páginas</h5>
                     <ul class="list-unstyled small mb-0">
-                        <li><a href="index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
-                        <li><a href="pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
-                        <li><a href="pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
-                        <li><a href="pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
+                        <li><a href="../index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
+                        <li><a href="../pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
+                        <li><a href="../pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
+                        <li><a href="../pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -154,8 +155,6 @@
             <p class="text-center small mb-0">© 2026 CESAE Digital. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-
 
     <!-- JS do bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
