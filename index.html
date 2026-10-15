@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-
+    <title>CESAE Digital Lisboa</title>
     <!-- CSS do bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -16,8 +15,32 @@
     <!-- CSS da minha app -->
     <link rel="stylesheet" href="css/index.css">
 </head>
-<!-- Atualizações -->
+
 <body>
+
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/cesaelogo.svg" alt="CESAE Digital" height="40">
+            </a>
+
+            <!-- Botão do menu no telemóvel -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/parceiros.html">Parceiros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
