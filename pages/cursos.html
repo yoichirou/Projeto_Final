@@ -10,7 +10,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- icons do bootstrap  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- CSS da minha app -->
     <link rel="stylesheet" href="../css/cursos.css">
@@ -20,7 +20,7 @@
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="cesae-logo-full" href="" >
+            <a class="cesae-logo-full" href="">
                 <img src="../images/cesae-logo-full.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,10 +38,17 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contactos.html">Contactos</a>
-                    </li>   
-                </ul>                                
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a href="/#"
+                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center" id="Botão" data-bs-toggle="dropdown" style="width: 40px; height: 40px;">
+                        <i class="bi bi-person"></i>                    
+                    </a>
+                    
+                </div>
             </div>
-            
+
         </div>
     </nav>
 
@@ -69,7 +76,7 @@
                             <img src="../images/aws.jpg" alt="aws" class="img-fluid">
                             <br><br>
                             <!-- Badge -->
-                            <span class="badge text-bg-success align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3 ">
                                 Formação B Learning - Laboral
                             </span>
                             <!-- Titulo -->
@@ -103,7 +110,7 @@
                             <p class="text-secondary mb-0">- Fundamentos de serviço da AWS</p>
                             <p class="text-secondary mb-0">- Gestão de serviço da AWS</p>
                             <p></p>
-                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                            <a href="../pages/contactos.html" class="btn btn-outline-primary mt-auto align-self-start">
                                 Saber mais
                             </a>
                         </div>
@@ -116,7 +123,7 @@
                             <img src="../images/softwaredev.jpg" alt="softwaredev" class="img-fluid">
                             <br><br>
                             <!-- Badge -->
-                            <span class="badge text-bg-success align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3 ">
                                 Formação B Learning - Laboral
                             </span>
                             <!-- Titulo -->
@@ -139,7 +146,7 @@
                             <p class="text-secondary mb-0">- Aplicações móveis com iOS </p>
                             <p class="text-secondary mb-0">- Projeto web e mobile</p>
                             <p></p>
-                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                            <a href="../pages/contactos.html" class="btn btn-outline-primary mt-auto align-self-start">
                                 Saber mais
                             </a>
                         </div>
@@ -152,7 +159,7 @@
                             <img src="../images/markt.jpg" alt="marketing" class="img-fluid">
                             <br><br>
                             <!-- Badge -->
-                            <span class="badge text-bg-success align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3 ">
                                 Formação B Learning - Laboral
                             </span>
                             <!-- Titulo -->
@@ -170,7 +177,7 @@
                             <p class="text-secondary mb-0">- Definir e implementar estratégias de marketing automation
                             </p>
                             <p></p>
-                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                            <a href="../pages/contactos.html" class="btn btn-outline-primary mt-auto align-self-start">
                                 Saber mais
                             </a>
                         </div>
@@ -183,7 +190,7 @@
                             <img src="../images/dataanaly.jpg" alt="dataanalyst" class="img-fluid">
                             <br><br>
                             <!-- Badge -->
-                            <span class="badge text-bg-success align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3 ">
                                 Formação B Learning - Laboral
                             </span>
                             <!-- Titulo -->
@@ -216,7 +223,7 @@
                             <p class="text-secondary mb-0">- Storytelling com dados</p>
                             <p class="text-secondary mb-0">- Projeto de business intelligence</p>
                             <p></p>
-                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                            <a href="../pages/contactos.html" class="btn btn-outline-primary mt-auto align-self-start">
                                 Saber mais
                             </a>
                         </div>
@@ -229,7 +236,7 @@
                             <img src="../images/cyber.jpg" alt="cyber" class="img-fluid">
                             <br><br>
                             <!-- Badge -->
-                            <span class="badge text-bg-success align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3 ">
                                 Formação B Learning - Laboral
                             </span>
                             <!-- Titulo -->
@@ -257,7 +264,7 @@
                             </p>
                             <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Attack Simulation</p>
                             <p class="text-secondary mb-0">- Projeto ‐ Wargamming</p>
-                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                            <a href="../pages/contactos.html" class="btn btn-outline-primary mt-auto align-self-start">
                                 Saber mais
                             </a>
                         </div>
@@ -272,9 +279,14 @@
 
 
 
+
+
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
         </script>
+
 </body>
 
 </html>
