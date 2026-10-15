@@ -17,13 +17,43 @@
 </head>
 
 <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="cesae-logo-full" href="" >
+                <img src="../images/cesae-logo-full.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                    </li>   
+                </ul>                                
+            </div>
+            
+        </div>
+    </nav>
+
+
+
 
     <!-- Cursos -->
     <section class="bg-light py-5">
         <div classe="container py-3">
             <!-- Titulo -->
             <div class="text-center mb-4 ">
-                <h2 class="fw-bold">
+                <h2 class="titulo-cursos fw-bold">
                     Cursos
                 </h2>
                 <p class="text-secondary ">
@@ -32,199 +62,208 @@
                 </p>
             </div>
             <div class="row g-4 justify-content-center py-3">
-            <!-- Primeiro Curso -->
-            <div class="col-6 col-md-4 col-lg-3 py-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <img src="../images/aws.jpg" alt="aws" class="img-fluid">
-                        <br><br>
-                        <!-- Badge -->
-                        <span class="badge text-bg-success align-self-start mb-3 ">
-                            Formação B Learning - Laboral
-                        </span>
-                        <!-- Titulo -->
-                        <h3 class="h5 text-danger text-center">AWS RE/START - Cloud Computing and Network Administration
-                        </h3>
-                        <!-- Modulos -->
-                        <p class="text-secondary mb-0">- Comunicação interpessoal</p>
-                        <p class="text-secondary mb-0">- Inglês Técnico</p>
-                        <p class="text-secondary mb-0">- Hardware e Redes de Computadores</p>
-                        <p class="text-secondary mb-0">- Rede de Computadores Avançado </p>
-                        <p class="text-secondary mb-0">- Avaliação de Necessidades de Equipamento e de Redes numa
-                            Organização</p>
-                        <p class="text-secondary mb-0">- Montagem e Configuração de Sistemas Informáticos e de Redes
-                        </p>
-                        <p class="text-secondary mb-0">- Instalação e Gestão de Sistemas Operativos de Redes </p>
-                        <p class="text-secondary mb-0">- Sistema Operativo Servidor Open Source</p>
-                        <p class="text-secondary mb-0">- Sistemas Operativos Open Source </p>
-                        <p class="text-secondary mb-0">- Configuração de Serviços num Servidor Linux </p>
-                        <p class="text-secondary mb-0">- Servidor de Correio Eletrónico </p>
-                        <p class="text-secondary mb-0">- Sistema Operativo Cliente (plataforma proprietária)</p>
-                        <p class="text-secondary mb-0">- Sistema Operativo Servidor (plataforma proprietária) </p>
-                        <p class="text-secondary mb-0">- Configuração Avançada de Sistemas Operativos Servidores </p>
-                        <p class="text-secondary mb-0">- Introdução à Programação </p>
-                        <p class="text-secondary mb-0">- Programação em Python</p>
-                        <p class="text-secondary mb-0">- Fundamentos de Base de Dados</p>
-                        <p class="text-secondary mb-0">- Introdução à Cloud (Computação Básica e Introdução à AWS)</p>
-                        <p class="text-secondary mb-0">- Fundamentos e Gestão de Serviços da Azure </p>
-                        <p class="text-secondary mb-0">- Fundamentos de serviço da AWS</p>
-                        <p class="text-secondary mb-0">- Gestão de serviço da AWS</p>
-                        <p></p>
-                        <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
-                            Saber mais
-                        </a>
+                <!-- Primeiro Curso -->
+                <div class="col-6 col-md-4 col-lg-3 py-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <img src="../images/aws.jpg" alt="aws" class="img-fluid">
+                            <br><br>
+                            <!-- Badge -->
+                            <span class="badge text-bg-success align-self-start mb-3 ">
+                                Formação B Learning - Laboral
+                            </span>
+                            <!-- Titulo -->
+                            <h3 class="h5 text-danger text-center">AWS RE/START - Cloud Computing and Network
+                                Administration
+                            </h3>
+                            <!-- Modulos -->
+                            <p class="text-secondary mb-0">- Comunicação interpessoal</p>
+                            <p class="text-secondary mb-0">- Inglês Técnico</p>
+                            <p class="text-secondary mb-0">- Hardware e Redes de Computadores</p>
+                            <p class="text-secondary mb-0">- Rede de Computadores Avançado </p>
+                            <p class="text-secondary mb-0">- Avaliação de Necessidades de Equipamento e de Redes numa
+                                Organização</p>
+                            <p class="text-secondary mb-0">- Montagem e Configuração de Sistemas Informáticos e de Redes
+                            </p>
+                            <p class="text-secondary mb-0">- Instalação e Gestão de Sistemas Operativos de Redes </p>
+                            <p class="text-secondary mb-0">- Sistema Operativo Servidor Open Source</p>
+                            <p class="text-secondary mb-0">- Sistemas Operativos Open Source </p>
+                            <p class="text-secondary mb-0">- Configuração de Serviços num Servidor Linux </p>
+                            <p class="text-secondary mb-0">- Servidor de Correio Eletrónico </p>
+                            <p class="text-secondary mb-0">- Sistema Operativo Cliente (plataforma proprietária)</p>
+                            <p class="text-secondary mb-0">- Sistema Operativo Servidor (plataforma proprietária) </p>
+                            <p class="text-secondary mb-0">- Configuração Avançada de Sistemas Operativos Servidores
+                            </p>
+                            <p class="text-secondary mb-0">- Introdução à Programação </p>
+                            <p class="text-secondary mb-0">- Programação em Python</p>
+                            <p class="text-secondary mb-0">- Fundamentos de Base de Dados</p>
+                            <p class="text-secondary mb-0">- Introdução à Cloud (Computação Básica e Introdução à AWS)
+                            </p>
+                            <p class="text-secondary mb-0">- Fundamentos e Gestão de Serviços da Azure </p>
+                            <p class="text-secondary mb-0">- Fundamentos de serviço da AWS</p>
+                            <p class="text-secondary mb-0">- Gestão de serviço da AWS</p>
+                            <p></p>
+                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                                Saber mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segundo Curso -->
+                <div class="col-6 col-md-4 col-lg-3 py-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <img src="../images/softwaredev.jpg" alt="softwaredev" class="img-fluid">
+                            <br><br>
+                            <!-- Badge -->
+                            <span class="badge text-bg-success align-self-start mb-3 ">
+                                Formação B Learning - Laboral
+                            </span>
+                            <!-- Titulo -->
+                            <h3 class="h5 text-danger text-center"> Software Developer (LIS) </h3>
+                            <!-- Modulos -->
+                            <p class="text-secondary mb-0">- Comunicação e Trabalho em Equipa </p>
+                            <p class="text-secondary mb-0">- Inglês técnico aplicado ao desenvolvimento de software </p>
+                            <p class="text-secondary mb-0">- Bases de dados SQL e No-SQL</p>
+                            <p class="text-secondary mb-0">- Construção de Algoritmos – iniciação </p>
+                            <p class="text-secondary mb-0">- Construção de Algoritmos – avançado</p>
+                            <p class="text-secondary mb-0">- Desenvolvimento de Software Orientado a Objetos </p>
+                            <p class="text-secondary mb-0">- Desenvolvimento Web (front-end) </p>
+                            <p class="text-secondary mb-0">- Desenvolvimento Web (back-end)</p>
+                            <p class="text-secondary mb-0">- Front-end Frameworks </p>
+                            <p class="text-secondary mb-0">- Back-end Frameworks </p>
+                            <p class="text-secondary mb-0">- Quality Assurance </p>
+                            <p class="text-secondary mb-0">- Design Patterns</p>
+                            <p class="text-secondary mb-0">- UML </p>
+                            <p class="text-secondary mb-0">- Aplicações móveis com Android nativo </p>
+                            <p class="text-secondary mb-0">- Aplicações móveis com iOS </p>
+                            <p class="text-secondary mb-0">- Projeto web e mobile</p>
+                            <p></p>
+                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                                Saber mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Terceiro Curso -->
+                <div class="col-6 col-md-4 col-lg-3 py-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <img src="../images/markt.jpg" alt="marketing" class="img-fluid">
+                            <br><br>
+                            <!-- Badge -->
+                            <span class="badge text-bg-success align-self-start mb-3 ">
+                                Formação B Learning - Laboral
+                            </span>
+                            <!-- Titulo -->
+                            <h3 class="h5 text-danger text-center"> Marketing Digital e Comunicação Online (parceria
+                                Fundação Aga Khan) </h3>
+                            <!-- Modulos -->
+                            <p class="text-secondary mb-0">- Conceber e implementar a estratégia de marketing digital
+                            </p>
+                            <p class="text-secondary mb-0">- Planear e elaborar estratégias de marketing de conteúdos
+                            </p>
+                            <p class="text-secondary mb-0">- Gerir os canais de comunicação digital</p>
+                            <p class="text-secondary mb-0">- Aplicar a inteligência artificial nas estratégias de
+                                marketing
+                                digital </p>
+                            <p class="text-secondary mb-0">- Definir e implementar estratégias de marketing automation
+                            </p>
+                            <p></p>
+                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                                Saber mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quarto Curso -->
+                <div class="col-6 col-md-4 col-lg-3 py-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <img src="../images/dataanaly.jpg" alt="dataanalyst" class="img-fluid">
+                            <br><br>
+                            <!-- Badge -->
+                            <span class="badge text-bg-success align-self-start mb-3 ">
+                                Formação B Learning - Laboral
+                            </span>
+                            <!-- Titulo -->
+                            <h3 class="h5 text-danger text-center"> Data Analyst (LIS) </h3>
+                            <!-- Modulos -->
+                            <p class="text-secondary mb-0">- Comunicação interpessoal e assertividade </p>
+                            <p class="text-secondary mb-0">- Inglês em contexto socioprofissional </p>
+                            <p class="text-secondary mb-0">- Trabalho em equipa</p>
+                            <p class="text-secondary mb-0">- Gestão de informação </p>
+                            <p class="text-secondary mb-0">- Utilização Avançada de Folhas de Cálculo
+                                para Gestão e Manipulação de Dados</p>
+                            <p class="text-secondary mb-0">- Folha de cálculo – funcionalidades avançadas </p>
+                            <p class="text-secondary mb-0">- Lógica de Programação e Estruturação
+                                de Algoritmos </p>
+                            <p class="text-secondary mb-0">- Gestão e armazenamento de dados </p>
+                            <p class="text-secondary mb-0">- Programação em Python: Sintaxe, Estruturas
+                                e Desenvolvimento Modular</p>
+                            <p class="text-secondary mb-0">- Preparação, Transformação e Limpeza
+                                de Dados com Python</p>
+                            <p class="text-secondary mb-0">- Data Engineering On-Premises
+                                (infraestruturas locais)</p>
+                            <p class="text-secondary mb-0">- Cloud Computing para Data Engineers</p>
+                            <p class="text-secondary mb-0">- Visualização de dados em Python</p>
+                            <p class="text-secondary mb-0">- Programação em R – Análise em “Big Data”</p>
+                            <p class="text-secondary mb-0">- Princípios básicos da análise exploratória
+                                de dados</p>
+                            <p class="text-secondary mb-0">- Ingestão de dados</p>
+                            <p class="text-secondary mb-0">- Folha de cálculo – Dashboards</p>
+                            <p class="text-secondary mb-0">- Transformação de dados</p>
+                            <p class="text-secondary mb-0">- Storytelling com dados</p>
+                            <p class="text-secondary mb-0">- Projeto de business intelligence</p>
+                            <p></p>
+                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                                Saber mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quinto Curso -->
+                <div class="col-6 col-md-4 col-lg-3 py-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <img src="../images/cyber.jpg" alt="cyber" class="img-fluid">
+                            <br><br>
+                            <!-- Badge -->
+                            <span class="badge text-bg-success align-self-start mb-3 ">
+                                Formação B Learning - Laboral
+                            </span>
+                            <!-- Titulo -->
+                            <h3 class="h5 text-danger text-center"> Network & Cyber Security Administrator (LIS) </h3>
+                            <!-- Modulos -->
+                            <p class="text-secondary mb-0">- Comunicação Interpessoal </p>
+                            <p class="text-secondary mb-0">- Inglês Técnico </p>
+                            <p class="text-secondary mb-0">- IT Essentials</p>
+                            <p class="text-secondary mb-0">- IP Addressing & Network Infrastructure </p>
+                            <p class="text-secondary mb-0">- Networking Models & Protocols</p>
+                            <p class="text-secondary mb-0">- Security Fundamentals</p>
+                            <p class="text-secondary mb-0">- Operating Systems – Windows Server</p>
+                            <p class="text-secondary mb-0">- Operating Systems – Linux Server</p>
+                            <p class="text-secondary mb-0">- Coding – Python</p>
+                            <p class="text-secondary mb-0">- Coding – Bash / PowerShell</p>
+                            <p class="text-secondary mb-0">- Cloud Computing – Azure</p>
+                            <p class="text-secondary mb-0">- Cloud Computing – AWS</p>
+                            <p class="text-secondary mb-0">- RGPD</p>
+                            <p class="text-secondary mb-0">- Cybersecurity Fundamentals</p>
+                            <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Threat Detection</p>
+                            <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Logs & Protecting
+                                Networks
+                            </p>
+                            <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Network Scanning & Recon
+                            </p>
+                            <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Attack Simulation</p>
+                            <p class="text-secondary mb-0">- Projeto ‐ Wargamming</p>
+                            <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
+                                Saber mais
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Segundo Curso -->
-            <div class="col-6 col-md-4 col-lg-3 py-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <img src="../images/softwaredev.jpg" alt="softwaredev" class="img-fluid">
-                        <br><br>
-                        <!-- Badge -->
-                        <span class="badge text-bg-success align-self-start mb-3 ">
-                            Formação B Learning - Laboral
-                        </span>
-                        <!-- Titulo -->
-                        <h3 class="h5 text-danger text-center"> Software Developer (LIS) </h3>
-                        <!-- Modulos -->
-                        <p class="text-secondary mb-0">- Comunicação e Trabalho em Equipa </p>
-                        <p class="text-secondary mb-0">- Inglês técnico aplicado ao desenvolvimento de software </p>
-                        <p class="text-secondary mb-0">- Bases de dados SQL e No-SQL</p>
-                        <p class="text-secondary mb-0">- Construção de Algoritmos – iniciação </p>
-                        <p class="text-secondary mb-0">- Construção de Algoritmos – avançado</p>
-                        <p class="text-secondary mb-0">- Desenvolvimento de Software Orientado a Objetos </p>
-                        <p class="text-secondary mb-0">- Desenvolvimento Web (front-end) </p>
-                        <p class="text-secondary mb-0">- Desenvolvimento Web (back-end)</p>
-                        <p class="text-secondary mb-0">- Front-end Frameworks </p>
-                        <p class="text-secondary mb-0">- Back-end Frameworks </p>
-                        <p class="text-secondary mb-0">- Quality Assurance </p>
-                        <p class="text-secondary mb-0">- Design Patterns</p>
-                        <p class="text-secondary mb-0">- UML </p>
-                        <p class="text-secondary mb-0">- Aplicações móveis com Android nativo </p>
-                        <p class="text-secondary mb-0">- Aplicações móveis com iOS </p>
-                        <p class="text-secondary mb-0">- Projeto web e mobile</p>
-                        <p></p>
-                        <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
-                            Saber mais
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Terceiro Curso -->
-            <div class="col-6 col-md-4 col-lg-3 py-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <img src="../images/markt.jpg" alt="marketing" class="img-fluid">
-                        <br><br>
-                        <!-- Badge -->
-                        <span class="badge text-bg-success align-self-start mb-3 ">
-                            Formação B Learning - Laboral
-                        </span>
-                        <!-- Titulo -->
-                        <h3 class="h5 text-danger text-center"> Marketing Digital e Comunicação Online (parceria
-                            Fundação Aga Khan) </h3>
-                        <!-- Modulos -->
-                        <p class="text-secondary mb-0">- Conceber e implementar a estratégia de marketing digital </p>
-                        <p class="text-secondary mb-0">- Planear e elaborar estratégias de marketing de conteúdos </p>
-                        <p class="text-secondary mb-0">- Gerir os canais de comunicação digital</p>
-                        <p class="text-secondary mb-0">- Aplicar a inteligência artificial nas estratégias de marketing
-                            digital </p>
-                        <p class="text-secondary mb-0">- Definir e implementar estratégias de marketing automation</p>
-                        <p></p>
-                        <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
-                            Saber mais
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Quarto Curso -->
-            <div class="col-6 col-md-4 col-lg-3 py-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <img src="../images/dataanaly.jpg" alt="dataanalyst" class="img-fluid">
-                        <br><br>
-                        <!-- Badge -->
-                        <span class="badge text-bg-success align-self-start mb-3 ">
-                            Formação B Learning - Laboral
-                        </span>
-                        <!-- Titulo -->
-                        <h3 class="h5 text-danger text-center"> Data Analyst (LIS) </h3>
-                        <!-- Modulos -->
-                        <p class="text-secondary mb-0">- Comunicação interpessoal e assertividade </p>
-                        <p class="text-secondary mb-0">- Inglês em contexto socioprofissional </p>
-                        <p class="text-secondary mb-0">- Trabalho em equipa</p>
-                        <p class="text-secondary mb-0">- Gestão de informação </p>
-                        <p class="text-secondary mb-0">- Utilização Avançada de Folhas de Cálculo
-                            para Gestão e Manipulação de Dados</p>
-                        <p class="text-secondary mb-0">- Folha de cálculo – funcionalidades avançadas </p>
-                        <p class="text-secondary mb-0">- Lógica de Programação e Estruturação
-                            de Algoritmos </p>
-                        <p class="text-secondary mb-0">- Gestão e armazenamento de dados </p>
-                        <p class="text-secondary mb-0">- Programação em Python: Sintaxe, Estruturas
-                            e Desenvolvimento Modular</p>
-                        <p class="text-secondary mb-0">- Preparação, Transformação e Limpeza
-                            de Dados com Python</p>
-                        <p class="text-secondary mb-0">- Data Engineering On-Premises
-                            (infraestruturas locais)</p>
-                        <p class="text-secondary mb-0">- Cloud Computing para Data Engineers</p>
-                        <p class="text-secondary mb-0">- Visualização de dados em Python</p>
-                        <p class="text-secondary mb-0">- Programação em R – Análise em “Big Data”</p>
-                        <p class="text-secondary mb-0">- Princípios básicos da análise exploratória
-                            de dados</p>
-                        <p class="text-secondary mb-0">- Ingestão de dados</p>
-                        <p class="text-secondary mb-0">- Folha de cálculo – Dashboards</p>
-                        <p class="text-secondary mb-0">- Transformação de dados</p>
-                        <p class="text-secondary mb-0">- Storytelling com dados</p>
-                        <p class="text-secondary mb-0">- Projeto de business intelligence</p>
-                        <p></p>
-                        <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
-                            Saber mais
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Quinto Curso -->
-            <div class="col-6 col-md-4 col-lg-3 py-3">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <img src="../images/cyber.jpg" alt="cyber" class="img-fluid">
-                        <br><br>
-                        <!-- Badge -->
-                        <span class="badge text-bg-success align-self-start mb-3 ">
-                            Formação B Learning - Laboral
-                        </span>
-                        <!-- Titulo -->
-                        <h3 class="h5 text-danger text-center"> Network & Cyber Security Administrator (LIS) </h3>
-                        <!-- Modulos -->
-                        <p class="text-secondary mb-0">- Comunicação Interpessoal </p>
-                        <p class="text-secondary mb-0">- Inglês Técnico </p>
-                        <p class="text-secondary mb-0">- IT Essentials</p>
-                        <p class="text-secondary mb-0">- IP Addressing & Network Infrastructure </p>
-                        <p class="text-secondary mb-0">- Networking Models & Protocols</p>
-                        <p class="text-secondary mb-0">- Security Fundamentals</p>
-                        <p class="text-secondary mb-0">- Operating Systems – Windows Server</p>
-                        <p class="text-secondary mb-0">- Operating Systems – Linux Server</p>
-                        <p class="text-secondary mb-0">- Coding – Python</p>
-                        <p class="text-secondary mb-0">- Coding – Bash / PowerShell</p>
-                        <p class="text-secondary mb-0">- Cloud Computing – Azure</p>
-                        <p class="text-secondary mb-0">- Cloud Computing – AWS</p>
-                        <p class="text-secondary mb-0">- RGPD</p>
-                        <p class="text-secondary mb-0">- Cybersecurity Fundamentals</p>
-                        <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Threat Detection</p>
-                        <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Logs & Protecting Networks
-                        </p>
-                        <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Network Scanning & Recon</p>
-                        <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Attack Simulation</p>
-                        <p class="text-secondary mb-0">- Projeto ‐ Wargamming</p>
-                        <a href="#contacto" class="btn btn-outline-primary mt-auto align-self-start">
-                            Saber mais
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         </div>
     </section>
