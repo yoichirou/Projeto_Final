@@ -44,6 +44,8 @@ hr {
     background-color: #6a239b;
 }
 
-.bi {
+/* Meter o icon em branco */
+.bi
+{
     color: white;
 }

@@ -24,3 +24,8 @@
     url('../images/tejo.png') no-repeat center center;
     background-size: cover;
 }
+
+.bi-person
+{
+    color: white;
+}
