@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +16,77 @@
 </head>
 
 <body>
+    <!-- header/nav -->
 
+    <!-- main -->
+    <main>
+        <!-- Polos -->
+        <div>
 
+        </div>
 
+        <!-- form contacto -->
+        <section id="contacto" class="bg-light p-5">
+            <h2 class="p-4 text-center">Deixe-nos a sua mensagem</h2>
+            <form action="utils/success.html" class="w-75 mx-auto">
+                <!-- mx-auto para centralizar horizontalmente -->
+                <div class="row"> <!-- linha para nome -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="input_name" placeholder="Insira o seu nome."
+                                name="name" required>
+                            <label for="name">Nome*</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> <!-- linha para email e telemóvel -->
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 ">
+                            <input type="email" class="form-control" id="input_email" placeholder="Insira o seu email."
+                                name="email" required>
+                            <label for="email">Email*</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3 ">
+                            <input type="tel" class="form-control" id="input_phone" placeholder="Insira o seu email."
+                                name="phone">
+                            <label for="phone">Telemóvel</label>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row"> <!-- linha para mensagem -->
+                    <div class="col-12">
+                        <div class="form mb-3">
+                            <label for="form-message px-5 m-5">
+                                <h6 class="mx-1 my-2">Mensagem</h6>
+                            </label>
+                            <textarea class="form-control " placeholder="Escreva sua mensagem aqui." id="form-message"
+                                name="textarea" rows="6"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> <!-- linha para checkbox termos/políticas -->
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault" required>
+                            <label class="form-check-label" for="checkDefault">
+                                O utilizador declara estar a par dos nossos <span> <a class="disabled">Termos e
+                                        Condições</a></span> e <span><a class="disabled">Política de
+                                        Privacidade</a></span>.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center"> <!-- linha para botão CTA -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-purple btn-lg mt-3 px-5">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
         </script>
