@@ -2,35 +2,51 @@
     border-radius: 4px;
 }
 
-/* hr */
-hr {
+/* Linha roxa por baixo do título */
+.titulo-secao::after {
+    content: "";
+    display: block;
     width: 80px;
     height: 4px;
-    background-color: #7426aa;
-    opacity: 1;
+    background-color: #6a239b;
     border-radius: 2px;
     margin: 1rem auto 0;
 }
 
-/* botões CTA */
-.btn-purple {
-    background-color: #7426aa;
-    color: white;
-    text-decoration: none;
+/* classe polo e filhos */
+.polo { /* layout vertical */
+    display: flex;
+    flex-direction: column;
+}
+.polo h5 { /*título dos pólos*/
+    color: #6a239b;
+    font-weight: bold;
+    min-height: 3rem;
+}
+.polo div.my-2 { /*blocos internos do pólo*/
+    display: flex;
+    flex: 1; /* cresce igualmente */
+    flex-direction: column;
 }
 
+/* botões CTA */
+.btn-purple {
+    background-color: #6a239b;
+    color: white;
+    border: none;
+}
 .btn-purple:hover {
     background-color: black;
     font-weight: bolder;
     color: white;
 }
 
+/* checkbox e texto - para facilitar visibilidade */
 .checkbox-consent {
-    border-color: #7426aa;
+    border-color: #6a239b;
 }
-
 .purple-text {
-    color: #7426aa;
+    color: #6a239b;
 }
 
 /* links */
@@ -38,14 +54,11 @@ hr {
 .link-disabled {
     text-decoration: none;
     color: inherit;
-}
-
-.badge {
-    background-color: #6a239b;
+    pointer-events: none; /* para evitar comportamento ao clicar */
+    cursor: default; /* para o cursor manter o aspeto original e evitar interação */
 }
 
 /* Meter o icon em branco */
-.bi
-{
+.bi {
     color: white;
 }
