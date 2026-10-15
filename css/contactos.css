@@ -39,3 +39,11 @@ hr {
     text-decoration: none;
     color: inherit;
 }
+
+.badge {
+    background-color: #6a239b;
+}
+
+.bi {
+    color: white;
+}
