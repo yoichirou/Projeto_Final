@@ -2,19 +2,20 @@
     border-radius: 4px;
 }
 
-/* hr */
-hr {
+/* Título com linha roxa por baixo */
+.titulo-secao::after {
+    content: "";
+    display: block;
     width: 80px;
     height: 4px;
-    background-color: #7426aa;
-    opacity: 1;
+    background-color: #6a239b;
     border-radius: 2px;
     margin: 1rem auto 0;
 }
 
 /* botões CTA */
 .btn-purple {
-    background-color: #7426aa;
+    background-color: #6a239b;
     color: white;
     text-decoration: none;
 }
@@ -26,11 +27,11 @@ hr {
 }
 
 .checkbox-consent {
-    border-color: #7426aa;
+    border-color: #6a239b;
 }
 
 .purple-text {
-    color: #7426aa;
+    color: #6a239b;
 }
 
 /* links */
