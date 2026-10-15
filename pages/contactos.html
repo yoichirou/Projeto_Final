@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="../css/contactos.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-light d-flex flex-column min-vh-100">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="cesae-logo-full" href="">
-                <img src="../images/cesae-logo-full.png" alt="">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/cesae-logo-full.png" alt="CESAE Digital" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,26 +29,28 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto ">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Homepage</a>
+                        <a class="nav-link" href="../index.html">Homepage</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-                    </li>                    
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/parceiros.html">Parceiros</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contactos.html">Contactos</a>
+                    </li>
                 </ul>
                 <div>
-                    <a href="/#"
-                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center" id="Botão" data-bs-toggle="dropdown" style="width: 40px; height: 40px;">
-                        <i class="bi bi-person"></i>                    
+                    <a href="#contacto"
+                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center"
+                        id="botao" style="width: 40px; height: 40px;">
+                        <i class="bi bi-person"></i>
                     </a>
-                    
                 </div>
             </div>
-
         </div>
     </nav>
 
@@ -123,23 +125,23 @@
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="input_name" placeholder="Insira o seu nome."
                                     name="name" required>
-                                <label for="name">Nome*</label>
+                                <label for="input_name">Nome*</label>
                             </div>
                         </div>
                     </div>
                     <div class="row"> <!-- linha para email e telemóvel -->
                         <div class="col-md-6">
-                            <div class="form-floating mb-3 ">
+                            <div class="form-floating mb-3">
                                 <input type="email" class="form-control" id="input_email"
                                     placeholder="Insira o seu email." name="email" required>
-                                <label for="email">Email*</label>
+                                <label for="input_email">Email*</label>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-floating mb-3 ">
+                            <div class="form-floating mb-3">
                                 <input type="tel" class="form-control" id="input_phone"
-                                    placeholder="Insira o seu email." name="phone">
-                                <label for="phone">Telemóvel</label>
+                                    placeholder="Insira o seu telemóvel." name="phone">
+                                <label for="input_phone">Telemóvel</label>
                             </div>
                         </div>
                     </div>
@@ -149,7 +151,7 @@
                                 <label for="form-message">
                                     <h6 class="mx-1 my-2">Mensagem</h6>
                                 </label>
-                                <textarea class="form-control " placeholder="Escreva sua mensagem aqui."
+                                <textarea class="form-control" placeholder="Escreva sua mensagem aqui."
                                     id="form-message" name="textarea" rows="6"></textarea>
                             </div>
                         </div>
@@ -180,7 +182,6 @@
 
     </main>
 
-
     <!-- Rodapé -->
     <footer class="bg-dark text-white py-4 mt-auto">
         <div class="container">
@@ -192,10 +193,10 @@
                 <div class="col-md-4">
                     <h5 class="fw-bold">Páginas</h5>
                     <ul class="list-unstyled small mb-0">
-                        <li><a href="index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
-                        <li><a href="pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
-                        <li><a href="pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
-                        <li><a href="pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
+                        <li><a href="../index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
+                        <li><a href="../pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
+                        <li><a href="../pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
+                        <li><a href="../pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -208,9 +209,6 @@
             <p class="text-center small mb-0">© 2026 CESAE Digital. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">

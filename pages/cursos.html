@@ -5,23 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
-    <!-- CSS do bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <!-- icons do bootstrap  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!-- CSS da minha app -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/cursos.css">
 </head>
 
-<body>
-    <!-- NavBar -->
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="cesae-logo-full" href="">
-                <img src="../images/cesae-logo-full.png" alt="">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/cesae-logo-full.png" alt="CESAE Digital" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,9 +23,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto ">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Homepage</a>
+                        <a class="nav-link" href="../index.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/parceiros.html">Parceiros</a>
@@ -41,49 +38,39 @@
                     </li>
                 </ul>
                 <div>
-                    <a href="/#"
-                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center" id="Botão" data-bs-toggle="dropdown" style="width: 40px; height: 40px;">
-                        <i class="bi bi-person"></i>                    
+                    <a href="contactos.html"
+                        class="nav-link btn rounded-circle bg-black border-light person d-none d-lg-flex justify-content-center align-items-center"
+                        id="botao" style="width: 40px; height: 40px;">
+                        <i class="bi bi-person"></i>
                     </a>
-                    
                 </div>
             </div>
-
         </div>
     </nav>
 
-
-
-
-    <!-- Cursos -->
     <section class="bg-light py-5">
-        <div classe="container py-3">
-            <!-- Titulo -->
-            <div class="text-center mb-4 ">
+        <div class="container py-3">
+            <div class="text-center mb-4">
                 <h2 class="titulo-cursos fw-bold">
                     Cursos
                 </h2>
-                <p class="text-secondary ">
+                <p class="text-secondary">
                     Temos uma oferta variada de cursos, para que possa escolher aquele que mais se adapta aos seus
                     interesses.
                 </p>
             </div>
             <div class="row g-4 justify-content-center py-3">
-                <!-- Primeiro Curso -->
                 <div class="col-6 col-md-4 col-lg-3 py-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body d-flex flex-column">
                             <img src="../images/aws.jpg" alt="aws" class="img-fluid">
                             <br><br>
-                            <!-- Badge -->
-                            <span class="badge align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3">
                                 Formação B Learning - Laboral
                             </span>
-                            <!-- Titulo -->
                             <h3 class="h5 text-danger text-center">AWS RE/START - Cloud Computing and Network
                                 Administration
                             </h3>
-                            <!-- Modulos -->
                             <p class="text-secondary mb-0">- Comunicação interpessoal</p>
                             <p class="text-secondary mb-0">- Inglês Técnico</p>
                             <p class="text-secondary mb-0">- Hardware e Redes de Computadores</p>
@@ -116,19 +103,15 @@
                         </div>
                     </div>
                 </div>
-                <!-- Segundo Curso -->
                 <div class="col-6 col-md-4 col-lg-3 py-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body d-flex flex-column">
                             <img src="../images/softwaredev.jpg" alt="softwaredev" class="img-fluid">
                             <br><br>
-                            <!-- Badge -->
-                            <span class="badge align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3">
                                 Formação B Learning - Laboral
                             </span>
-                            <!-- Titulo -->
                             <h3 class="h5 text-danger text-center"> Software Developer (LIS) </h3>
-                            <!-- Modulos -->
                             <p class="text-secondary mb-0">- Comunicação e Trabalho em Equipa </p>
                             <p class="text-secondary mb-0">- Inglês técnico aplicado ao desenvolvimento de software </p>
                             <p class="text-secondary mb-0">- Bases de dados SQL e No-SQL</p>
@@ -152,20 +135,16 @@
                         </div>
                     </div>
                 </div>
-                <!-- Terceiro Curso -->
                 <div class="col-6 col-md-4 col-lg-3 py-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body d-flex flex-column">
                             <img src="../images/markt.jpg" alt="marketing" class="img-fluid">
                             <br><br>
-                            <!-- Badge -->
-                            <span class="badge align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3">
                                 Formação B Learning - Laboral
                             </span>
-                            <!-- Titulo -->
                             <h3 class="h5 text-danger text-center"> Marketing Digital e Comunicação Online (parceria
                                 Fundação Aga Khan) </h3>
-                            <!-- Modulos -->
                             <p class="text-secondary mb-0">- Conceber e implementar a estratégia de marketing digital
                             </p>
                             <p class="text-secondary mb-0">- Planear e elaborar estratégias de marketing de conteúdos
@@ -183,19 +162,15 @@
                         </div>
                     </div>
                 </div>
-                <!-- Quarto Curso -->
                 <div class="col-6 col-md-4 col-lg-3 py-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body d-flex flex-column">
                             <img src="../images/dataanaly.jpg" alt="dataanalyst" class="img-fluid">
                             <br><br>
-                            <!-- Badge -->
-                            <span class="badge align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3">
                                 Formação B Learning - Laboral
                             </span>
-                            <!-- Titulo -->
                             <h3 class="h5 text-danger text-center"> Data Analyst (LIS) </h3>
-                            <!-- Modulos -->
                             <p class="text-secondary mb-0">- Comunicação interpessoal e assertividade </p>
                             <p class="text-secondary mb-0">- Inglês em contexto socioprofissional </p>
                             <p class="text-secondary mb-0">- Trabalho em equipa</p>
@@ -229,24 +204,20 @@
                         </div>
                     </div>
                 </div>
-                <!-- Quinto Curso -->
                 <div class="col-6 col-md-4 col-lg-3 py-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body d-flex flex-column">
                             <img src="../images/cyber.jpg" alt="cyber" class="img-fluid">
                             <br><br>
-                            <!-- Badge -->
-                            <span class="badge align-self-start mb-3 ">
+                            <span class="badge align-self-start mb-3">
                                 Formação B Learning - Laboral
                             </span>
-                            <!-- Titulo -->
-                            <h3 class="h5 text-danger text-center"> Network & Cyber Security Administrator (LIS) </h3>
-                            <!-- Modulos -->
+                            <h3 class="h5 text-danger text-center"> Network &amp; Cyber Security Administrator (LIS) </h3>
                             <p class="text-secondary mb-0">- Comunicação Interpessoal </p>
                             <p class="text-secondary mb-0">- Inglês Técnico </p>
                             <p class="text-secondary mb-0">- IT Essentials</p>
-                            <p class="text-secondary mb-0">- IP Addressing & Network Infrastructure </p>
-                            <p class="text-secondary mb-0">- Networking Models & Protocols</p>
+                            <p class="text-secondary mb-0">- IP Addressing &amp; Network Infrastructure </p>
+                            <p class="text-secondary mb-0">- Networking Models &amp; Protocols</p>
                             <p class="text-secondary mb-0">- Security Fundamentals</p>
                             <p class="text-secondary mb-0">- Operating Systems – Windows Server</p>
                             <p class="text-secondary mb-0">- Operating Systems – Linux Server</p>
@@ -257,10 +228,10 @@
                             <p class="text-secondary mb-0">- RGPD</p>
                             <p class="text-secondary mb-0">- Cybersecurity Fundamentals</p>
                             <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Threat Detection</p>
-                            <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Logs & Protecting
+                            <p class="text-secondary mb-0">- Defensive Security (Blue Teaming) Logs &amp; Protecting
                                 Networks
                             </p>
-                            <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Network Scanning & Recon
+                            <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Network Scanning &amp; Recon
                             </p>
                             <p class="text-secondary mb-0">- Offensive Security (Red Teaming) Attack Simulation</p>
                             <p class="text-secondary mb-0">- Projeto ‐ Wargamming</p>
@@ -275,7 +246,6 @@
         </div>
     </section>
 
-    <!-- Rodapé -->
     <footer class="bg-dark text-white py-4 mt-auto">
         <div class="container">
             <div class="row g-4 text-center text-md-start">
@@ -286,10 +256,10 @@
                 <div class="col-md-4">
                     <h5 class="fw-bold">Páginas</h5>
                     <ul class="list-unstyled small mb-0">
-                        <li><a href="index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
-                        <li><a href="pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
-                        <li><a href="pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
-                        <li><a href="pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
+                        <li><a href="../index.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Homepage</a></li>
+                        <li><a href="../pages/cursos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Cursos</a></li>
+                        <li><a href="../pages/parceiros.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Parceiros</a></li>
+                        <li><a href="../pages/contactos.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">Contactos</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -303,12 +273,7 @@
         </div>
     </footer>
 
-
-
-
-
-
-    
+    <!-- JS do bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
         </script>
