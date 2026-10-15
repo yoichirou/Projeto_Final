@@ -17,12 +17,40 @@
 </head>
 
 <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/cesae-logo-full.png" alt="CESAE Digital" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Conteúdo principal, centrado e com espaço em cima e em baixo -->
+    <!-- Conteúdo principal -->
     <main class="container py-5">
 
-        <!-- Secção dos parceiros, com texto centrado -->
-        <section class="parceiros text-center">
+        <section class="text-center">
 
             <!-- Título com linha roxa por baixo -->
             <h1 class="titulo-parceiros mb-4">Parcerias e certificações</h1>
@@ -32,35 +60,62 @@
                 A qualidade da formação e das certificações do CESAE Digital é possível graças ao apoio dos nossos parceiros.
             </p>
 
-            <!-- Grelha de logos, cada um é um link para o site do parceiro -->
-            <div class="parceiros-logos">
-                <a href="https://www.checkpoint.com/mind/secureacademy/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/checkpoint.png" alt="Check Point SecureAcademy">
-                </a>
-                <a href="https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html" target="_blank" class="cartao-parceiro">
-                    <img src="../images/cisco.png" alt="Cisco Networking Academy">
-                </a>
-                <a href="https://aws.amazon.com/pt/training/awsacademy/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/aws.png" alt="AWS Academy">
-                </a>
-                <a href="https://www.kryterion.com/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/kryterion.png" alt="Kryterion">
-                </a>
-                <a href="https://www.meazurelearning.com/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/meazure.jpg" alt="Meazure Learning">
-                </a>
-                <a href="https://www.autodesk.com/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/autodesk.png" alt="Autodesk">
-                </a>
-                <a href="https://www.sage.com/pt-pt" target="_blank" class="cartao-parceiro">
-                    <img src="../images/sage.png" alt="Sage">
-                </a>
-                <a href="https://www.aeportugal.pt/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/aep.png" alt="AEP - Associação Empresarial de Portugal">
-                </a>
-                <a href="https://www.pearsonvue.com/" target="_blank" class="cartao-parceiro">
-                    <img src="../images/pearson.png" alt="Pearson VUE">
-                </a>
+            <!-- Grelha: 1 coluna no telemóvel, 2 no tablet, 3 no desktop -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mx-auto" style="max-width: 960px;">
+                <div class="col">
+                    <a href="https://www.checkpoint.com/mind/secureacademy/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/checkpoint.png" alt="Check Point SecureAcademy" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/cisco.png" alt="Cisco Networking Academy" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://aws.amazon.com/pt/training/awsacademy/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/aws.png" alt="AWS Academy" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.kryterion.com/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/kryterion.png" alt="Kryterion" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.meazurelearning.com/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/meazure.jpg" alt="Meazure Learning" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.autodesk.com/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/autodesk.png" alt="Autodesk" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.sage.com/pt-pt" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/sage.png" alt="Sage" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.aeportugal.pt/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/aep.png" alt="AEP - Associação Empresarial de Portugal" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.pearsonvue.com/" target="_blank"
+                        class="card cartao-parceiro h-100 rounded-3 p-4 d-flex align-items-center justify-content-center">
+                        <img src="../images/pearson.png" alt="Pearson VUE" class="img-fluid">
+                    </a>
+                </div>
             </div>
         </section>
 
