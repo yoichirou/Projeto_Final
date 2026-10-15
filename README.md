@@ -60,6 +60,6 @@ O formulário da página de Contactos recolhe nome, email, telemóvel e mensagem
 
 ## Autores
 
-- Bruna Gama
+- Bruna Gama ([@brunajacby](https://github.com/brunajacby))
 - Raquel ([@terruta](https://github.com/terruta))
 - Diogo ([@yoichirou](https://github.com/yoichirou))
