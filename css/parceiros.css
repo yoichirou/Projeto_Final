@@ -6,28 +6,12 @@
     height: 4px;
     background-color: #6a239b;
     border-radius: 2px;
-    margin: 1rem auto 0;      /* centra a linha */
+    margin: 1rem auto 0;
 }
 
-/* Grelha de 3 colunas */
-.parceiros-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-/* Cartão de cada parceiro */
+/* Altura fixa do cartão e animação */
 .cartao-parceiro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 160px;
-    padding: 1.5rem;
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 12px;
+    min-height: 160px;
     transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
 }
 
@@ -41,24 +25,5 @@
 /* Logo dentro do cartão */
 .cartao-parceiro img {
     max-height: 90px;
-    max-width: 100%;
-    object-fit: contain;      /* não corta nem estica */
-}
-
-/* Tablet: 2 colunas */
-@media (max-width: 768px) {
-    .parceiros-logos {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Telemóvel: 1 coluna */
-@media (max-width: 480px) {
-    .parceiros-logos {
-        grid-template-columns: 1fr;
-    }
-
-    .cartao-parceiro {
-        height: 130px;
-    }
+    object-fit: contain;
 }
